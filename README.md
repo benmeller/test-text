@@ -1,4 +1,2 @@
 # test-text
-Algorithm prototype for The Ron Project's water diagnostics kit and associated text messaging system. This algorithm collects and processes new texts.  
-
-This algorithm will create a new csv file based on month. These csv files will be placed in the **output** folder. You can see the *May.csv* as an example.
+Algorithm prototype for The Ron Project's water diagnostics kit and associated text messaging system. This algorithm collects and processes new texts, writing the results to a csv file as an output. This algorithm will create a new csv file based on month and each file will be placed in the **output** folder. You can see the *May.csv* as an example. During prototyping these texts have been stored in an xml file which also contains other metadata. See examples in the *message* folder.
