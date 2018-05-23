@@ -10,7 +10,7 @@ class text_class:
 
 def latest_file_paths():
     # *.xml specifies all xml files in the directory
-    list_of_files = glob.glob('/Users/benmeller/Google Drive/test_system/*.xml')
+    list_of_files = glob.glob('./messages/*.xml')
 
     latest_file = list_of_files[-1]
     second_latest_file = list_of_files[-2]
