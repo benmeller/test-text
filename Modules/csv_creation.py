@@ -5,7 +5,7 @@ month_to_text = {1: 'Jan', 2: 'Feb', 3:'Mar', 4:'Apr', 5:'May', 6:'Jun', 7:'Jul'
 def file_path():
     current_month = datetime.now().month
     month_text = month_to_text[current_month]
-    path = '/Users/benmeller/OneDrive - The University of Sydney (Students)/Uni/Engd1000/Prototype/text_messages/Output/' + month_text + '.csv'
+    path = './Output/' + month_text + '.csv'
 
     return path
 
